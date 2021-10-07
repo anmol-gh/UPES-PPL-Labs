@@ -1,3 +1,27 @@
+//07/10/2021
+
+/* 
+question
+
+Write a C program that asks users to enter the marks in physics chemistry and maths out of 100. Based on the provided inputs. The program should be able to output the following:
+
+a) Total marks of the student.
+
+b) Average marks of the student.
+
+c) Grade of the student based on the given grading policies:
+
+i) if avg>=90 GRADE=EX
+
+ii) if 80<=avg<90 GRDAE=A
+
+3:56 pm
+iii) if 70<=avg<80 GRDAE=B
+
+iii) if 60<=avg<70 GRDAE=C
+
+iv) Else GRADE=F*/
+
 #include <stdio.h>
 
 int main(void)
