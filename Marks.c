@@ -29,12 +29,18 @@ int main(void)
     int phy_marks, chem_marks, maths_marks;
     float average;
     int check = 1;
+
+    //Taking marks from the user
+
     printf("Enter physics marks ");
     scanf("%d", &phy_marks);
     printf("Enter chemistry marks ");
     scanf("%d", &chem_marks);
     printf("Enter mathematics marks ");
     scanf("%d", &maths_marks);
+
+    //Checking whether input is correct or not
+
     if (phy_marks > 100 || chem_marks > 100 || maths_marks > 100)
     {
         check = 0;
@@ -43,6 +49,9 @@ int main(void)
     if (check)
     {
         printf("Total marks of the student are %d \n", phy_marks + chem_marks + maths_marks);
+
+        //Calculating average
+
         average = (phy_marks + chem_marks + maths_marks) / 3;
         printf("Average marks of the student is %f \n", average);
         if (average >= 90)
