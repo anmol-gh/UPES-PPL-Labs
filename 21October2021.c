@@ -69,10 +69,19 @@ int main(void)
     //         printf("%d is a Prime Number \n", i);
     //     }
     // }
+    //Question 05
+
+    // char c[100];
+    // scanf("%s", &c);
+    // printf("    %s     \n", c);
+    // printf("   %s %s   \n", c, c);
+    // printf("  %s %s %s  \n", c, c, c);
+    // printf(" %s %s %s %s \n", c, c, c, c);
+    // printf("%s %s %s %s %s\n", c, c, c, c, c);
 
     //Question 06
-    int number;
-
+    char number;
+    scanf("%f", &number);
 
     //Question 07 is a sub-part of Question 03
 
@@ -90,4 +99,5 @@ int main(void)
     //     printf("%d after operation \n", answer);
     // }
     // printf("%d", answer);
+    return 0;
 }
