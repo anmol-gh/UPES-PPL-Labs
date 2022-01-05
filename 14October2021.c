@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int number;
     int answer;
     scanf("%d", &number);
-    printf("%d",number);
+    printf("%d", number);
     return 0;
 }
